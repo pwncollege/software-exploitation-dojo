@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  h1:
+    restart: always
+    image: "N/A"
+    networks:
+      - frontend
+      - layer1
+    entrypoint: ["/fserve", "/babybot_level2_h1"]
+  h2:
+    restart: always
+    image: "N/A"
+    networks:
+      - layer1
+      - layer2
+    entrypoint: ["/fserve", "/babybot_level2_h2"]
+  flag_host:
+    restart: always
+    image: "N/A"
+    networks:
+      - layer2
+    entrypoint: ["/fserve", "/babybot_level2_flag_host"]
+
+networks:
+  frontend:
+    ipam:
+      config:
+        - subnet: "10.10.10.0/24"
+  layer1:
+    ipam:
+      config:
+        - subnet: "10.10.20.0/24"
+  layer2:
+    ipam:
+      config:
+        - subnet: "10.10.30.0/24"
