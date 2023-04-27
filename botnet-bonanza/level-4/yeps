@@ -1,0 +1,457 @@
+
+          h3:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer3
+                - layer4
+                entrypoint: ["/fserve", "/babybot_leve3_h3"]
+       
+          h4:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer4
+                - layer5
+                entrypoint: ["/fserve", "/babybot_leve3_h4"]
+       
+          h5:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer5
+                - layer6
+                entrypoint: ["/fserve", "/babybot_leve3_h5"]
+       
+          h6:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer6
+                - layer7
+                entrypoint: ["/fserve", "/babybot_leve3_h6"]
+       
+          h7:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer7
+                - layer8
+                entrypoint: ["/fserve", "/babybot_leve3_h7"]
+       
+          h8:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer8
+                - layer9
+                entrypoint: ["/fserve", "/babybot_leve3_h8"]
+       
+          h9:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer9
+                - layer10
+                entrypoint: ["/fserve", "/babybot_leve3_h9"]
+       
+          h10:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer10
+                - layer11
+                entrypoint: ["/fserve", "/babybot_leve3_h10"]
+       
+          h11:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer11
+                - layer12
+                entrypoint: ["/fserve", "/babybot_leve3_h11"]
+       
+          h12:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer12
+                - layer13
+                entrypoint: ["/fserve", "/babybot_leve3_h12"]
+       
+          h13:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer13
+                - layer14
+                entrypoint: ["/fserve", "/babybot_leve3_h13"]
+       
+          h14:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer14
+                - layer15
+                entrypoint: ["/fserve", "/babybot_leve3_h14"]
+       
+          h15:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer15
+                - layer16
+                entrypoint: ["/fserve", "/babybot_leve3_h15"]
+       
+          h16:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer16
+                - layer17
+                entrypoint: ["/fserve", "/babybot_leve3_h16"]
+       
+          h17:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer17
+                - layer18
+                entrypoint: ["/fserve", "/babybot_leve3_h17"]
+       
+          h18:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer18
+                - layer19
+                entrypoint: ["/fserve", "/babybot_leve3_h18"]
+       
+          h19:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer19
+                - layer20
+                entrypoint: ["/fserve", "/babybot_leve3_h19"]
+       
+          h20:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer20
+                - layer21
+                entrypoint: ["/fserve", "/babybot_leve3_h20"]
+       
+          h21:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer21
+                - layer22
+                entrypoint: ["/fserve", "/babybot_leve3_h21"]
+       
+          h22:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer22
+                - layer23
+                entrypoint: ["/fserve", "/babybot_leve3_h22"]
+       
+          h23:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer23
+                - layer24
+                entrypoint: ["/fserve", "/babybot_leve3_h23"]
+       
+          h24:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer24
+                - layer25
+                entrypoint: ["/fserve", "/babybot_leve3_h24"]
+       
+          h25:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer25
+                - layer26
+                entrypoint: ["/fserve", "/babybot_leve3_h25"]
+       
+          h26:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer26
+                - layer27
+                entrypoint: ["/fserve", "/babybot_leve3_h26"]
+       
+          h27:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer27
+                - layer28
+                entrypoint: ["/fserve", "/babybot_leve3_h27"]
+       
+          h28:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer28
+                - layer29
+                entrypoint: ["/fserve", "/babybot_leve3_h28"]
+       
+          h29:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer29
+                - layer30
+                entrypoint: ["/fserve", "/babybot_leve3_h29"]
+       
+          h30:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer30
+                - layer31
+                entrypoint: ["/fserve", "/babybot_leve3_h30"]
+       
+          h31:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer31
+                - layer32
+                entrypoint: ["/fserve", "/babybot_leve3_h31"]
+       
+          h32:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer32
+                - layer33
+                entrypoint: ["/fserve", "/babybot_leve3_h32"]
+       
+          h33:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer33
+                - layer34
+                entrypoint: ["/fserve", "/babybot_leve3_h33"]
+       
+          h34:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer34
+                - layer35
+                entrypoint: ["/fserve", "/babybot_leve3_h34"]
+       
+          h35:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer35
+                - layer36
+                entrypoint: ["/fserve", "/babybot_leve3_h35"]
+       
+          h36:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer36
+                - layer37
+                entrypoint: ["/fserve", "/babybot_leve3_h36"]
+       
+          h37:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer37
+                - layer38
+                entrypoint: ["/fserve", "/babybot_leve3_h37"]
+       
+          h38:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer38
+                - layer39
+                entrypoint: ["/fserve", "/babybot_leve3_h38"]
+       
+          h39:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer39
+                - layer40
+                entrypoint: ["/fserve", "/babybot_leve3_h39"]
+       
+          h40:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer40
+                - layer41
+                entrypoint: ["/fserve", "/babybot_leve3_h40"]
+       
+          h41:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer41
+                - layer42
+                entrypoint: ["/fserve", "/babybot_leve3_h41"]
+       
+          h42:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer42
+                - layer43
+                entrypoint: ["/fserve", "/babybot_leve3_h42"]
+       
+          h43:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer43
+                - layer44
+                entrypoint: ["/fserve", "/babybot_leve3_h43"]
+       
+          h44:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer44
+                - layer45
+                entrypoint: ["/fserve", "/babybot_leve3_h44"]
+       
+          h45:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer45
+                - layer46
+                entrypoint: ["/fserve", "/babybot_leve3_h45"]
+       
+          h46:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer46
+                - layer47
+                entrypoint: ["/fserve", "/babybot_leve3_h46"]
+       
+          h47:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer47
+                - layer48
+                entrypoint: ["/fserve", "/babybot_leve3_h47"]
+       
+          h48:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer48
+                - layer49
+                entrypoint: ["/fserve", "/babybot_leve3_h48"]
+       
+          h49:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer49
+                - layer50
+                entrypoint: ["/fserve", "/babybot_leve3_h49"]
+       
+          h50:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer50
+                - layer51
+                entrypoint: ["/fserve", "/babybot_leve3_h50"]
+       
+          h51:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer51
+                - layer52
+                entrypoint: ["/fserve", "/babybot_leve3_h51"]
+       
+          h52:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer52
+                - layer53
+                entrypoint: ["/fserve", "/babybot_leve3_h52"]
+       
+          h53:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer53
+                - layer54
+                entrypoint: ["/fserve", "/babybot_leve3_h53"]
+       
+          h54:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer54
+                - layer55
+                entrypoint: ["/fserve", "/babybot_leve3_h54"]
+       
+          h55:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer55
+                - layer56
+                entrypoint: ["/fserve", "/babybot_leve3_h55"]
+       
+          h56:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer56
+                - layer57
+                entrypoint: ["/fserve", "/babybot_leve3_h56"]
+       
+          h57:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer57
+                - layer58
+                entrypoint: ["/fserve", "/babybot_leve3_h57"]
+       
+          h58:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer58
+                - layer59
+                entrypoint: ["/fserve", "/babybot_leve3_h58"]
+       
+          h59:
+              restart: always
+              image: "N/A"
+              networks:
+                - layer59
+                - layer60
+                entrypoint: ["/fserve", "/babybot_leve3_h59"]
+       
