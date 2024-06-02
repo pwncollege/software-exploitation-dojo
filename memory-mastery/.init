@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod u-s /challenge/lib/libc.so.6
+chmod u-s /challenge/lib/ld-linux-x86-64.so.2 
+
